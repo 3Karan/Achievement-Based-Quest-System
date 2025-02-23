@@ -1,5 +1,3 @@
-
-```md
 # Achievement-Based Quest System
 
 This project is a **web application for achievement-based quests**, similar to Discord's Quest system.  
@@ -24,6 +22,8 @@ Users can **create, track, and complete quests** while earning achievements.
 ---
 
 ## 📂 Project Structure
+
+
 
 ### **Backend (FastAPI)**
 ```
