@@ -1,0 +1,33 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Light and dark mode support */
+  :root {
+    --primary-color: #4f46e5;
+    --secondary-color: #6366f1;
+    --background-color: #f9fafb;
+    --text-color: #111827;
+    --card-bg: #ffffff;
+    --border-color: #e5e7eb;
+  }
+  
+  .dark-mode {
+    --primary-color: #818cf8;
+    --secondary-color: #a5b4fc;
+    --background-color: #1f2937;
+    --text-color: #f3f4f6;
+    --card-bg: #374151;
+    --border-color: #4b5563;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
